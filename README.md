@@ -4,7 +4,7 @@ This is a babel plugin to remove propType definitions for your production React.
 
 # Installation
 
-```
+```bash
 npm install --save-dev react-strip-proptypes
 ```
 
@@ -13,17 +13,19 @@ npm install --save-dev react-strip-proptypes
 Add the loader to your `.babelrc` file:
 
 
-```
+```js
 {
-    ...
+    //...
     "env" : {
-        ...
+        //...
         "production" : {
             "plugins" : ["react-strip-proptypes"]
         }
     }
 }
 ```
+
+Ensure your NODE_ENV is set to 'production'. This should be done in any React project that is shipped to production using a bundler.
 
 # Thanks
 
