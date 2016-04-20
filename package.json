@@ -2,8 +2,9 @@
   "name": "react-strip-proptypes",
   "version": "0.1.0",
   "description": "Removes PropType declarations from React, for slimmer production builds.",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
+    "package": "tar --transform 's,^,react-strip-proptypes/,' -czvf \"${PWD##*/}.tar.gz\" package.json lib README.md",
     "test": "npm run-script build && tape test/index.js",
     "build": "babel src --out-dir lib"
   },
