@@ -1,6 +1,8 @@
-# react-strip-proptypes
+# DEPRECATED: react-strip-proptypes
 
 This is a babel plugin to remove propType definitions for your production React.js code.
+
+Use [babel-plugin-transform-react-remove-prop-types)](https://github.com/oliviertassinari/babel-plugin-transform-react-remove-prop-types) instead, as it covers more cases. See [babel-react-optimize](https://github.com/thejameskyle/babel-react-optimize) for more production optimizations.
 
 # Installation
 
