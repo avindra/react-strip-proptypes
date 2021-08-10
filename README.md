@@ -31,4 +31,4 @@ Ensure your NODE_ENV is set to 'production'. This should be done in any React pr
 
 # Thanks
 
-Thanks to @bloodyowl for his Babel 5 version of the project as a reference. Most of the tests are based on his original code.
+Tests based on [@bloodyowl/strip-proptypes](https://github.com/bloodyowl/strip-proptypes), a plugin for Babel 5.
